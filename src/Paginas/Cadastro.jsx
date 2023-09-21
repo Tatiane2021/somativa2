@@ -47,7 +47,7 @@ function Cadastro() {
 
     return (
         <form class="Cadastro" onSubmit={fazerCadastro}>
-            <div class="Principal">
+            <div class="Conteudo">
                 <p className='titulo'>Cadastro</p>
                 <input class="Input" placeholder='Nome' value={nome} onChange={(e) => setNome(e.target.value)} required />
                 <input class="Input" placeholder='Sobrenome' value={sobrenome} onChange={(e) => setSobrenome(e.target.value)} required />

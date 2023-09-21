@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .Main{
     display:flex;
     width:100%;
@@ -27,14 +31,14 @@
   border-radius: 10px;
 }
 
-.Cadastro .Principal{
+.Cadastro .Conteudo{
     display:flex;
     flex-direction: column;
     gap: 10px;
     width: 100%;
 }
 
-.Cadastro .Principal .titulo{
+.Cadastro .Conteudo .titulo{
     display:flex;
     width: 100%;
     align-items:center;
@@ -44,7 +48,7 @@
     margin-top:0px;
 }
 
-.Cadastro .Principal .Input{
+.Cadastro .Conteudo .Input{
     display:flex;
     padding:10px;
     width:100%;
@@ -80,14 +84,14 @@
   border-radius: 10px;
 }
 
-.Login .Principal{
+.Login .Conteudo{
     display:flex;
     flex-direction: column;
     gap: 10px;
     width: 100%;
 }
 
-.Login .Principal .titulo{
+.Login .Conteudo .titulo{
     display:flex;
     width: 100%;
     align-items:center;
@@ -97,7 +101,7 @@
     margin-top:0px;
 }
 
-.Login .Principal .Input{
+.Login .Conteudo .Input{
     display:flex;
     padding:10px;
     width:100%;
@@ -106,7 +110,7 @@
     border-radius: 5px;
 
 }
-.Login .button{
+.Login .button, .Login .buttonCadastro{
     display:flex;
     width: 100%;
     border-radius: 10px;
@@ -119,6 +123,8 @@
     outline: none;
     border: none; 
     color: #FFFFFF;
+    font-size:15px;
+    text-decoration: none;
 }
 
 .Principal{

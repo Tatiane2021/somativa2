@@ -1,0 +1,181 @@
+.Main{
+    display:flex;
+    width:100%;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dbeafe;
+    justify-content: center;
+}
+
+.notice{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.Cadastro{
+  display:flex;
+  width: 100%;
+  max-width: 400px;
+  background-color: #FFFFFF;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.Cadastro .Principal{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.Cadastro .Principal .titulo{
+    display:flex;
+    width: 100%;
+    align-items:center;
+    justify-content: center;
+    font-size: 30px;
+    color: #4b5563;
+    margin-top:0px;
+}
+
+.Cadastro .Principal .Input{
+    display:flex;
+    padding:10px;
+    width:100%;
+    outline: none;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+
+}
+.Cadastro .button{
+    display:flex;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #3b82f6;
+    max-width: 150px;
+    margin-top: 15px;
+    padding: 10px;
+    align-items:center;
+    justify-content: center;
+    outline: none;
+    border: none; 
+    color: #FFFFFF;
+}
+
+.Login{
+  display:flex;
+  width: 100%;
+  max-width: 400px;
+  background-color: #FFFFFF;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.Login .Principal{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.Login .Principal .titulo{
+    display:flex;
+    width: 100%;
+    align-items:center;
+    justify-content: center;
+    font-size: 30px;
+    color: #4b5563;
+    margin-top:0px;
+}
+
+.Login .Principal .Input{
+    display:flex;
+    padding:10px;
+    width:100%;
+    outline: none;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+
+}
+.Login .button{
+    display:flex;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #3b82f6;
+    max-width: 150px;
+    margin-top: 15px;
+    padding: 10px;
+    align-items:center;
+    justify-content: center;
+    outline: none;
+    border: none; 
+    color: #FFFFFF;
+}
+
+.Principal{
+    display:flex;
+    width: 100%;
+    max-width: 550px;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.Principal .titulo{
+    display:flex;
+    width: 100%;
+    align-items:center;
+    justify-content: center;
+    font-size: 30px;
+    color: #4b5563;
+    margin-top:0px;
+}
+
+.Principal .grid-container{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.Principal .grid-item {
+  display: grid;
+  width: 100%;
+  grid-template-columns:1fr 1fr 1fr;
+  font-size: 30px;
+  gap: 10px;
+  border-bottom: 1px solid #dbeafe;
+
+}
+
+.Principal .grid-item .Dados{
+    display:block;
+    width: 100%;
+    font-size: 14px;
+    color: #4b5563;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+}
+
+.Principal .grid-item .DadosMenu{
+    display:flex;
+    width: 100%;
+    font-size: 16px;
+    color: #1f2937;
+}
+
